@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
+import StateTutorial  from './StateTutorial';
+//import ReducerTutorial from './ReducerTutorial';
 import reportWebVitals from './reportWebVitals';
+import LayoutEffectTutorial from './LayoutEffectTutorial';
+//import RefTutorial from './RefTutorial';
+//import EffectTutorial from './EffectTutorial';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    
+   {/* <RefTutorial/> */}
+   <StateTutorial/>
+   <LayoutEffectTutorial/>
   </React.StrictMode>
 );
 
